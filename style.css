@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+}
+
+nav.Barra-lateral{
+    height: 100%;
+    width: 300px;
+    background-color: rgb(43, 41, 41);
+}
+
+div.Titilo-barra-lateral{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 280px;
+    padding-top: 10px;
+    border-color: antiquewhite;
+
+}
