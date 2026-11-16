@@ -2,13 +2,18 @@ body{
     height: 100vh;
 }
 
-nav.Barra-lateral{
-    height: 100%;
-    width: 300px;
-    background-color: rgb(43, 41, 41);
+.Barra-central{
+    height: 50%;
+    width: 500px;
+    background-color: rgba(97, 168, 103, 0.799);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
-div.Titilo-barra-lateral{
+.Titulo-barra-central{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
@@ -16,8 +21,13 @@ div.Titilo-barra-lateral{
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 280px;
+    width: 100%;
     padding-top: 10px;
     cursor: pointer;
 
+}
+
+.Caixa-texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
 }
