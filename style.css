@@ -5,8 +5,22 @@
 }
 body{
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    background-color: rgb(235, 240, 244);
     
+}
+
+.cartao-flutuante{
+    display: flex;
+    width: 65%;
+    height: 80%;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.15);
+    border-radius: 16px;
+    border: 3px solid #ddd;
+    overflow: hidden;
+
 }
 
 aside{
@@ -14,19 +28,18 @@ aside{
     flex-direction: column;
     width: 60%;
     height: 100%;
-    background-color: rgb(182, 182, 237);
+    background-color: rgba(128, 128, 235);
 }
 
 h1{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 40%;
     height: 100%;
@@ -41,13 +54,14 @@ main{
 form{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    margin: auto;
+    max-width: 360px;
+    width: 75%;
     gap: 20px;
 }
 
 footer{
     display: flex;
-    margin-top: auto;
     background-color: aquamarine;
     justify-content: center;
     align-items: center;
@@ -58,6 +72,8 @@ footer{
 /*adicionando a estilização das bordas*/
 
 .caixa-retangulo-padrao{
-    border: 10px;
-    border-color: black;
+    border: 2px;
+    border-color: 0,0,0,0.3;
+    border-style: solid;
+    border-radius: 5px;
 }
