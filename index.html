@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,8 @@
 </head>
 <body>
 
-    <aside>
+    <aside id="Lado-esquerdo">
         
-        Essa será a divisão do lado esquerdo
 
         <h1>PrevFlow</h1> 
 
@@ -20,20 +19,17 @@
 
     
     <main>
-        <form action="Fazer-login">
-            <h2>Acesso ao Sistema</h2>
-
-            <div class="caixa-retangulo-padrão">caixa-email</div>
-            <div class="caixa-retangulo-padrão">caixa-senha</div>
-            <div class="caixa-retangulo-padrão">botão ENTRAR</div>
-            <a href="redirecionar-link-esqueci-miha-senha">esqueci minha senha</a>
-
-            <footer>
-                rodapé
-            </footer>
-
-
+        <form action="Fazer-login" method="post">
+            <h2 class="texto-form">Acesso ao Sistema</h2>
+            <input type="email" class = "caixa-retangulo-padrao" placeholder="email-corporativo" required>
+            <input type="password" class="caixa-retangulo-padrao" placeholder="Senha" required>
+            <button type="submit" class="caixa-retangulo-padrao">botão ENTRAR</button>
+            <a href="redirecionar-link-esqueci-miha-senha" class="texto-form">esqueci minha senha</a>
         </form>
+
+        <footer>
+            rodapé
+        </footer>
         
 
     </main>
