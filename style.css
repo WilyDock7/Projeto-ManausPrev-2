@@ -72,8 +72,41 @@ footer{
 /*adicionando a estilização das bordas*/
 
 .caixa-retangulo-padrao{
-    border: 2px;
-    border-color: 0,0,0,0.3;
+    height: 40px;
+    border: 1px;
+    border-color: rgba(0,0,0,0.2);
     border-style: solid;
     border-radius: 5px;
+    padding: 0 12px;
+
+}
+
+.caixa-retangulo-padrao:focus{
+    outline: none;
+    border-color: #1a73e8;
+}
+
+.botao-entrar{
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.botao-entrar:hover{
+    background-color: #1558b0;
+}
+
+
+.link-esqueci{
+    text-align: center;
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link-esqueci:hover{
+    text-decoration: underline;
 }
